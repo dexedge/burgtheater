@@ -32,7 +32,7 @@ This is my first Shiny app and is in active development.
 For comments, feature requests, and bug reports, contact me at:
 <dexedge@gmail.com>
 
-The code for this app is at:
+The code and data for this app is at:
 <https://github.com/dexedge/burgtheater>
 
 Version 1.0
