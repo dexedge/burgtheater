@@ -1,0 +1,30 @@
+---
+title: "Burgtheater Help"
+author: "Dexter Edge"
+date: "July 21, 2018"
+output: html_document
+---
+<br>
+Click a radio button to select by Composers or Titles
+
+When "All" appears in the **selection box**, all performances will be shown, regardless of any other specific selections. To select particular Composers (or Titles), first highlight and delete "All", then make your selections from the drop-down list. You can select multiple items at once: you can, for example, compare Mozart, Salieri, and Martín y Soler, or (if selecting by title) *Le nozze di Figaro*, *Axur*, and *Una cosa rara*.
+
+You can also type directly into the selection box, and the range of possibilities in the list will narrow as you type. For example, typing "mo" in the Composers box is sufficient to narrow the list to "Mozart".
+
+In the **Series** tab (which plots a time series of receipts), it will generally be most useful to select just a single Composer or Title.
+
+When using the **Date** selector in the sidebar, make sure to select a particular day within a month, otherwise the selector will revert back to its original date. For example, if you want to narrow your selection to the season 1789/90, click the date selector on the right, move back to April 1790, and select any day in that month before the 13th (the first opera performance of the season 1790/91). The tables and plots will now show only the results for the season 1789/90. (The **Series** plot has its own date-range slider and will ignore the date-range selector in the sidebar.)
+
+(In the court theater in Vienna at this time, theatrical seasons ran from the Monday after Easter to the end of Lent. The break between the seasons 1789/90 and 1790/91 was longer than usual because of the death of Emperor Joseph II on 20 Feb 1790.)
+
+The main **Table** defaults to showing the selected performances in chronological order, and the **Summary** table defaults to alphabetical order by Composer or Title.
+
+When numeric columns are sorted in either table, the entire column of selected data will be sorted, not just the items showing on the screen. Numeric sorts default to descending order: in other words, they begin with the greatest number of performances or the highest receipts.
+
+The column **Zinz** in the main table shows whether or not the performance was attended by Count Karl **Zinzendorf**, who systematically recorded in his diary all of his trips to the theater, and whose patterns of attendance give insight into the tastes of his class (the upper aristocracy).
+
+In the **Summary** table, the **SD** column shows the *population* standard deviation of the receipts (not the sample standard deviation), as the calculation is based on a complete and comprehensive data set.
+
+The **"Convert kreuzer"** calculator takes a number of kreuzer as input (for example 15454) and converts this to gulden (fl) and kreuzer (kr), at 60 kreuzer per gulden (in this example, 257 fl 34 kr).
+
+To **reset** all selections, refresh the browser window.
