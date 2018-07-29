@@ -3,9 +3,8 @@
 # 
 # Dexter Edge
 #
-# Development version
 # Version 1.0
-# Updated: 2018-07-22
+# Updated: 2018-07-28
 
 library(shiny)
 library(shinythemes)
@@ -19,7 +18,7 @@ library(RColorBrewer)
 #############
 # Load data #
 #############
-load("~/Documents/Burgtheater/Burgtheater, Shiny/Burgtheater/operas.Rdata")
+load("operas.Rdata")
 
 operas <- operas %>% select(Date, DOW, Title, Composer, Receipts, Zinz)
 
