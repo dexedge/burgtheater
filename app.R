@@ -3,8 +3,8 @@
 # 
 # Dexter Edge
 #
-# Version 1.0
-# Updated: 2018-07-28
+# Version 1.1
+# Updated: 2018-07-31
 
 library(shiny)
 library(shinythemes)
@@ -24,6 +24,7 @@ operas <- operas %>% select(Date, DOW, Title, Composer, Receipts, Zinz)
 
 d_bg_composer <- operas[, -4] # For background histograms; these don't change
 d_bg_title <- operas[, -3]
+
 
 # Color palette for histograms
 # We need 24 colors, as there are 23 opera titles,
@@ -338,7 +339,13 @@ server <- function(input, output, session) {
      new <- as_date("1790-02-12")
      receipts <- merge.xts(receipts, new)
      receipts
-   }) # End reactitve operas_xts
+   }) # End reactive operas_xts
+   
+   # Create vector of titles to use in legend
+   titles <- reactive({
+     sapply(operas_selected()$Title, as.character, 
+                    stringsAsFactors = FALSE)
+   }) # End reactive titles
    
    # Build dygraph plot
    operastimeseries <- reactive({
@@ -352,11 +359,26 @@ server <- function(input, output, session) {
        dyAxis("x", valueFormatter = "function(ms) {
                                 return new Date(ms).toDateString()}",
               rangePad=5
-              ) %>%
+              )  %>% 
        dyEvent(x=as.Date("1790-02-20"), label="Death of Joseph II") %>% 
        dyHighlight(highlightCircleSize = 5) %>% 
        dyLegend(show="auto") %>% 
-       dyRangeSelector()
+       dyRangeSelector() %>%
+       # Code to add title to legend adapted from StackOverflow 27671576,
+       # answer by timelyportfolio
+       dyCallbacks(
+         highlightCallback = sprintf(
+           'function(e, x, pts, row) {
+           var customLegend = %s
+           // should get our htmlwidget
+           var legendel = e.target.parentNode.parentNode
+           .querySelectorAll(".dygraph-legend")[0];
+           
+           // should get our htmlwidget
+           legendel.innerHTML = legendel.innerHTML + "<br>" + 
+           "<em>" + customLegend[row] + "</em>";}',  # supply a vector
+           jsonlite::toJSON(titles())
+         )) 
    }) # End reactive dygraph
    
   ####################
