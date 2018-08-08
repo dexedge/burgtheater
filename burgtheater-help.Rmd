@@ -1,7 +1,7 @@
 ---
 title: "Burgtheater Help"
 author: "Dexter Edge"
-date: "July 21, 2018"
+date: "August 8, 2018"
 output: html_document
 ---
 <br>
@@ -11,7 +11,7 @@ When "All" appears in the **selection box**, all performances will be shown, reg
 
 You can also type directly into the selection box, and the range of possibilities in the list will narrow as you type. For example, typing "mo" in the Composers box is sufficient to narrow the list to "Mozart".
 
-In the **Series** tab (which plots a time series of receipts), it will generally be most useful to select just a single Composer or Title.
+To close the selection box, click anywhere outside it or press ESC.
 
 When using the **Date** selector in the sidebar, make sure to select a particular day within a month, otherwise the selector will revert back to its original date. For example, if you want to narrow your selection to the season 1789/90, click the date selector on the right, move back to April 1790, and select any day in that month before the 13th (the first opera performance of the season 1790/91). The tables and plots will now show only the results for the season 1789/90. (The **Series** plot has its own date-range slider and will ignore the date-range selector in the sidebar.)
 
@@ -19,7 +19,7 @@ When using the **Date** selector in the sidebar, make sure to select a particula
 
 The main **Table** defaults to showing the selected performances in chronological order, and the **Summary** table defaults to alphabetical order by Composer or Title.
 
-When numeric columns are sorted in either table, the entire column of selected data will be sorted, not just the items showing on the screen. Numeric sorts default to descending order: in other words, they begin with the greatest number of performances or the highest receipts.
+When numeric columns are sorted in either table, the entire column of selected data will be sorted, not just the items showing on the screen. Numeric sorts default to *descending* order: in other words, they begin with the greatest number of performances or the highest receipts.
 
 The column **Zinz** in the main table shows whether or not the performance was attended by Count Karl **Zinzendorf**, who systematically recorded in his diary all of his trips to the theater, and whose patterns of attendance give insight into the tastes of his class (the upper aristocracy).
 

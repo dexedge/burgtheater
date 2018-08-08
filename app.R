@@ -3,8 +3,8 @@
 # 
 # Dexter Edge
 #
-# Version 1.1
-# Updated: 2018-07-31
+# Version 1.2
+# Updated: 2018-08-08
 
 library(shiny)
 library(shinythemes)
@@ -169,12 +169,10 @@ ui <- fluidPage(theme = shinytheme("flatly"),
      tabsetPanel(type = "tabs",
        tabPanel("Table", value = 1,
                 dataTableOutput(outputId = "operastable"),
-                HTML("<p style='small'>To sort on a column, click on the arrows
-                     to the right of the column name</p>")),
+                HTML("<p style='small'>To sort on a column, click on its name</p>")),
        tabPanel("Summary", value = 2,
                 dataTableOutput(outputId = "summarytable"),
-                HTML("<p style='small'>To sort on a column, click on the arrows
-                     to the right of the column name</p>")),
+                HTML("<p style='small'>To sort on a column, click on its name</p>")),
        tabPanel("Boxplots", value = 3,
                 plotOutput(outputId = "operasboxplot"),
                 hr(),
@@ -361,8 +359,8 @@ server <- function(input, output, session) {
               rangePad=5
               )  %>% 
        dyEvent(x=as.Date("1790-02-20"), label="Death of Joseph II") %>% 
-       dyHighlight(highlightCircleSize = 5) %>% 
-       dyLegend(show="auto") %>% 
+      # dyHighlight(highlightCircleSize = 5) %>% 
+       dyLegend(show="follow") %>% 
        dyRangeSelector() %>%
        # Code to add title to legend adapted from StackOverflow 27671576,
        # answer by timelyportfolio
@@ -380,6 +378,9 @@ server <- function(input, output, session) {
            jsonlite::toJSON(titles())
          )) 
    }) # End reactive dygraph
+   
+  # dyHighlight() is currently commented out above because it creates
+  # an unresolved bug in the display of the title in the legend
    
   ####################
   # Output functions #

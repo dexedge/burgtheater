@@ -1,7 +1,7 @@
 ---
 title: "Burgtheater About"
 author: "Dexter Edge"
-date: "July 19, 2018"
+date: "August 8, 2018"
 output: html_document
 ---
 
@@ -35,7 +35,7 @@ For comments, feature requests, and bug reports, contact me at:
 The code and data for this app is at:
 <https://github.com/dexedge/burgtheater>
 
-Version 1.0
+Version 1.2
 
-Sat, 28 Jul 2018
+Wed, 8 Aug 2018
 
