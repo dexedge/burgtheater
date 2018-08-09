@@ -189,8 +189,7 @@ ui <- fluidPage(theme = shinytheme("flatly"),
                 dygraphOutput(outputId = "operatimeseries"),
                 HTML("<br>Move the sliders to change the date range 
                      of the time series.<br>Mousing over a particular point
-                     will show the date and receipts in the legend at the
-                     upper right.")
+                     will show the date, receipts, and title for that point.")
                 ),
        tabPanel("Help",
                 includeMarkdown("burgtheater-help.Rmd")),
