@@ -4,7 +4,7 @@
 # Dexter Edge
 #
 # Version 1.2
-# Updated: 2018-08-08
+# Updated: 2018-08-09
 
 library(shiny)
 library(shinythemes)
@@ -116,9 +116,9 @@ ui <- fluidPage(theme = shinytheme("flatly"),
          ) # End selectInput Title
        ),
        
-       # Note that the dates below will display incorrectly as one day
-       # earlier when viewing the app within R Studio, but they will display
-       # correctly in a browser
+       # Note that the dates below may display incorrectly as one day
+       # earlier when viewing the app with R Studio's built-in browser,
+       # but they will display correctly in an external browser
        conditionalPanel(
          # Do not show with dygraph tab
          condition = "input.tabselected != 6",
@@ -169,10 +169,10 @@ ui <- fluidPage(theme = shinytheme("flatly"),
      tabsetPanel(type = "tabs",
        tabPanel("Table", value = 1,
                 dataTableOutput(outputId = "operastable"),
-                HTML("<p style='small'>To sort on a column, click on its name</p>")),
+                HTML("<p style='small'>To sort a column, click on its name</p>")),
        tabPanel("Summary", value = 2,
                 dataTableOutput(outputId = "summarytable"),
-                HTML("<p style='small'>To sort on a column, click on its name</p>")),
+                HTML("<p style='small'>To sort a column, click on its name</p>")),
        tabPanel("Boxplots", value = 3,
                 plotOutput(outputId = "operasboxplot"),
                 hr(),
@@ -188,8 +188,9 @@ ui <- fluidPage(theme = shinytheme("flatly"),
        tabPanel("Series", value = 6,
                 dygraphOutput(outputId = "operatimeseries"),
                 HTML("<br>Move the sliders to change the date range 
-                     of the time series.<br>Mousing over a particular point
-                     will show the date, receipts, and title for that point.")
+                     of the time series.<br>Mousing over a point
+                     shows the date, receipts, and title for that point
+                     at the upper right.")
                 ),
        tabPanel("Help",
                 includeMarkdown("burgtheater-help.Rmd")),
@@ -307,7 +308,8 @@ server <- function(input, output, session) {
              scale_y_continuous(breaks = seq(0, 30, 5)) +
              theme(axis.title.x = element_text(size = 14),
                    axis.title.y = element_text(size = 14),
-                   axis.text.x = element_text(angle = 45, hjust = 1))
+                   axis.text.x = element_text(angle = 45, hjust = 1),
+                   strip.text.x = element_text(size = 12))
          } else {
            operas_selected() %>%
            group_by(Title) %>% 
@@ -323,7 +325,8 @@ server <- function(input, output, session) {
              scale_x_continuous(breaks = seq(0, 40000, 5000)) +
              theme(axis.title.x = element_text(size = 14),
                    axis.title.y = element_text(size = 14),
-                   axis.text.x = element_text(angle = 45, hjust = 1))
+                   axis.text.x = element_text(angle = 45, hjust = 1),
+                   strip.text.x = element_text(size = 12))
          } 
        
    }) # End reactive operashistogram 
@@ -358,8 +361,8 @@ server <- function(input, output, session) {
               rangePad=5
               )  %>% 
        dyEvent(x=as.Date("1790-02-20"), label="Death of Joseph II") %>% 
-      # dyHighlight(highlightCircleSize = 5) %>% 
-       dyLegend(show="follow") %>% 
+       # dyHighlight(highlightCircleSize = 5) %>% 
+       dyLegend(show="auto") %>% 
        dyRangeSelector() %>%
        # Code to add title to legend adapted from StackOverflow 27671576,
        # answer by timelyportfolio

@@ -29,13 +29,15 @@ A new analysis of this data using R and the tidyverse packages is in progress.
 
 This is my first Shiny app and is in active development.
 
-For comments, feature requests, and bug reports, contact me at:
-<dexedge@gmail.com>
-
 The code and data for this app is at:
 <https://github.com/dexedge/burgtheater>
 
+For comments, feature requests, and bug reports, contact me at
+<dexedge@gmail.com>, <br>or leave an issue on GitHub.
+
+
+
 Version 1.2
 
-Wed, 8 Aug 2018
+Thu, 9 Aug 2018
 

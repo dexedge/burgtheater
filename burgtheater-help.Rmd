@@ -7,7 +7,7 @@ output: html_document
 <br>
 Click a radio button to select by Composers or Titles
 
-When "All" appears in the **selection box**, all performances will be shown, regardless of any other specific selections. To select particular Composers (or Titles), first highlight and delete "All", then make your selections from the drop-down list. You can select multiple items at once: you can, for example, compare Mozart, Salieri, and Martín y Soler, or (if selecting by title) *Le nozze di Figaro*, *Axur*, and *Una cosa rara*.
+Whenever "All" appears in the **selection box**, all performances will be shown, regardless of any other specific selections. To select particular Composers (or Titles), first highlight and delete "All", then make your selections from the drop-down list. You can select multiple items at once: you can, for example, compare Mozart, Salieri, and Martín y Soler, or (if selecting by title) *Le nozze di Figaro*, *Axur*, and *Una cosa rara*.
 
 You can also type directly into the selection box, and the range of possibilities in the list will narrow as you type. For example, typing "mo" in the Composers box is sufficient to narrow the list to "Mozart".
 
