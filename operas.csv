@@ -1,0 +1,293 @@
+Date,DOW,Month,Title,Receipts,Zinz,Composer,Author
+1789-04-14,Tue,Apr,Fra i due litiganti,15454,FALSE,Sarti,Goldoni
+1789-04-20,Mon,Apr,Fra i due litiganti,6985,TRUE,Sarti,Goldoni
+1789-04-22,Wed,Apr,Fra i due litiganti,4545,TRUE,Sarti,Goldoni
+1789-04-24,Fri,Apr,Fra i due litiganti,5342,FALSE,Sarti,Goldoni
+1789-04-26,Sun,Apr,Fra i due litiganti,5791,FALSE,Sarti,Goldoni
+1789-04-28,Tue,Apr,Il turco in Italia,25139,TRUE,Seydelmann,Mazzolà
+1789-04-30,Thu,Apr,Il turco in Italia,6897,FALSE,Seydelmann,Mazzolà
+1789-05-02,Sat,May,Il turco in Italia,4268,TRUE,Seydelmann,Mazzolà
+1789-05-04,Mon,May,Fra i due litiganti,2400,TRUE,Sarti,Goldoni
+1789-05-06,Wed,May,Il turco in Italia,4515,FALSE,Seydelmann,Mazzolà
+1789-05-08,Fri,May,Fra i due litiganti,4609,FALSE,Sarti,Goldoni
+1789-05-10,Sun,May,Il turco in Italia,3130,FALSE,Seydelmann,Mazzolà
+1789-05-12,Tue,May,I due suppositi conti,14905,TRUE,Cimarosa,Anelli
+1789-05-14,Thu,May,Fra i due litiganti,2551,TRUE,Sarti,Goldoni
+1789-05-16,Sat,May,I due suppositi conti,15532,FALSE,Cimarosa,Anelli
+1789-05-18,Mon,May,I due suppositi conti,10451,TRUE,Cimarosa,Anelli
+1789-05-20,Wed,May,Il turco in Italia,2863,FALSE,Seydelmann,Mazzolà
+1789-05-22,Fri,May,Il turco in Italia,2794,FALSE,Seydelmann,Mazzolà
+1789-05-24,Sun,May,Una cosa rara,14138,FALSE,Martín y Soler,Da Ponte
+1789-05-26,Tue,May,I due suppositi conti,6430,TRUE,Cimarosa,Anelli
+1789-05-28,Thu,May,Una cosa rara,8937,TRUE,Martín y Soler,Da Ponte
+1789-05-30,Sat,May,Fra i due litiganti,2641,FALSE,Sarti,Goldoni
+1789-06-02,Tue,Jun,Una cosa rara,11379,TRUE,Martín y Soler,Da Ponte
+1789-06-04,Thu,Jun,I due suppositi conti,4982,FALSE,Cimarosa,Anelli
+1789-06-06,Sat,Jun,Una cosa rara,8532,TRUE,Martín y Soler,Da Ponte
+1789-06-08,Mon,Jun,Il turco in Italia,4362,FALSE,Seydelmann,Mazzolà
+1789-06-10,Wed,Jun,I due suppositi conti,4778,TRUE,Cimarosa,Anelli
+1789-06-13,Sat,Jun,Le gelosie fortunate,8849,FALSE,Anfossi,Livigni
+1789-06-15,Mon,Jun,Le gelosie fortunate,6485,TRUE,Anfossi,Livigni
+1789-06-17,Wed,Jun,Le gelosie fortunate,4757,TRUE,Anfossi,Livigni
+1789-06-19,Fri,Jun,I due suppositi conti,2620,FALSE,Cimarosa,Anelli
+1789-06-21,Sun,Jun,Le gelosie fortunate,3720,FALSE,Anfossi,Livigni
+1789-06-23,Tue,Jun,Una cosa rara,9646,FALSE,Martín y Soler,Da Ponte
+1789-06-27,Sat,Jun,L'arbore di Diana,24655,FALSE,Martín y Soler,Da Ponte
+1789-06-29,Mon,Jun,L'arbore di Diana,28869,FALSE,Martín y Soler,Da Ponte
+1789-07-01,Wed,Jul,L'arbore di Diana,16388,FALSE,Martín y Soler,Da Ponte
+1789-07-03,Fri,Jul,Il turco in Italia,5232,FALSE,Seydelmann,Mazzolà
+1789-07-05,Sun,Jul,L'arbore di Diana,9814,FALSE,Martín y Soler,Da Ponte
+1789-07-07,Tue,Jul,I due suppositi conti,4728,FALSE,Cimarosa,Anelli
+1789-07-09,Thu,Jul,Il turco in Italia,1986,FALSE,Seydelmann,Mazzolà
+1789-07-11,Sat,Jul,L'arbore di Diana,10614,TRUE,Martín y Soler,Da Ponte
+1789-07-13,Mon,Jul,I due suppositi conti,2452,FALSE,Cimarosa,Anelli
+1789-07-15,Wed,Jul,Il falegname,18073,TRUE,Cimarosa,Da Ponte
+1789-07-17,Fri,Jul,Il falegname,5898,TRUE,Cimarosa,Da Ponte
+1789-07-19,Sun,Jul,Il falegname,13417,TRUE,Cimarosa,Da Ponte
+1789-07-21,Tue,Jul,L'arbore di Diana,13721,TRUE,Martín y Soler,Da Ponte
+1789-07-23,Thu,Jul,Il falegname,6712,TRUE,Cimarosa,Da Ponte
+1789-07-25,Sat,Jul,Il falegname,3066,FALSE,Cimarosa,Da Ponte
+1789-07-27,Mon,Jul,Una cosa rara,16124,TRUE,Martín y Soler,Da Ponte
+1789-07-29,Wed,Jul,Una cosa rara,9636,TRUE,Martín y Soler,Da Ponte
+1789-07-31,Fri,Jul,L'arbore di Diana,10678,TRUE,Martín y Soler,Da Ponte
+1789-08-02,Sun,Aug,Una cosa rara,12897,TRUE,Martín y Soler,Da Ponte
+1789-08-04,Tue,Aug,Il falegname,4199,TRUE,Cimarosa,Da Ponte
+1789-08-06,Thu,Aug,L'arbore di Diana,8722,TRUE,Martín y Soler,Da Ponte
+1789-08-08,Sat,Aug,Il falegname,2926,FALSE,Cimarosa,Da Ponte
+1789-08-10,Mon,Aug,Una cosa rara,6071,TRUE,Martín y Soler,Da Ponte
+1789-08-12,Wed,Aug,L'arbore di Diana,8664,TRUE,Martín y Soler,Da Ponte
+1789-08-19,Wed,Aug,L'arbore di Diana,7513,TRUE,Martín y Soler,Da Ponte
+1789-08-21,Fri,Aug,I due suppositi conti,3134,TRUE,Cimarosa,Anelli
+1789-08-23,Sun,Aug,L'arbore di Diana,16054,FALSE,Martín y Soler,Da Ponte
+1789-08-25,Tue,Aug,I due suppositi conti,5579,TRUE,Cimarosa,Anelli
+1789-08-27,Thu,Aug,L'arbore di Diana,9325,TRUE,Martín y Soler,Da Ponte
+1789-08-29,Sat,Aug,Le nozze di Figaro,22609,TRUE,Mozart,Da Ponte
+1789-08-31,Mon,Aug,Le nozze di Figaro,14754,TRUE,Mozart,Da Ponte
+1789-09-02,Wed,Sep,Le nozze di Figaro,12728,TRUE,Mozart,Da Ponte
+1789-09-04,Fri,Sep,I due suppositi conti,2353,FALSE,Cimarosa,Anelli
+1789-09-06,Sun,Sep,I due baroni,10177,TRUE,Cimarosa,Palomba
+1789-09-09,Wed,Sep,L'arbore di Diana,10461,TRUE,Martín y Soler,Da Ponte
+1789-09-11,Fri,Sep,Le nozze di Figaro,10589,TRUE,Mozart,Da Ponte
+1789-09-13,Sun,Sep,I due baroni,5480,FALSE,Cimarosa,Palomba
+1789-09-15,Tue,Sep,Una cosa rara,27630,TRUE,Martín y Soler,Da Ponte
+1789-09-17,Thu,Sep,Una cosa rara,12115,TRUE,Martín y Soler,Da Ponte
+1789-09-19,Sat,Sep,Le nozze di Figaro,13329,TRUE,Mozart,Da Ponte
+1789-09-21,Mon,Sep,Il falegname,5484,TRUE,Cimarosa,Da Ponte
+1789-09-23,Wed,Sep,"Axur, re d'Ormus",27540,TRUE,Salieri,Da Ponte
+1789-09-25,Fri,Sep,"Axur, re d'Ormus",12964,TRUE,Salieri,Da Ponte
+1789-09-27,Sun,Sep,"Axur, re d'Ormus",16587,TRUE,Salieri,Da Ponte
+1789-09-29,Tue,Sep,L'arbore di Diana,7197,TRUE,Martín y Soler,Da Ponte
+1789-10-01,Thu,Oct,Il falegname,4042,FALSE,Cimarosa,Da Ponte
+1789-10-03,Sat,Oct,Le nozze di Figaro,14116,FALSE,Mozart,Da Ponte
+1789-10-05,Mon,Oct,Una cosa rara,9436,TRUE,Martín y Soler,Da Ponte
+1789-10-07,Wed,Oct,"Axur, re d'Ormus",11621,TRUE,Salieri,Da Ponte
+1789-10-09,Fri,Oct,Le nozze di Figaro,10932,TRUE,Mozart,Da Ponte
+1789-10-11,Sun,Oct,I due suppositi conti,8192,TRUE,Cimarosa,Anelli
+1789-10-13,Tue,Oct,"Axur, re d'Ormus",10385,TRUE,Salieri,Da Ponte
+1789-10-16,Fri,Oct,I due suppositi conti,4817,TRUE,Cimarosa,Anelli
+1789-10-18,Sun,Oct,Il pastor fido,22722,TRUE,Salieri,Da Ponte
+1789-10-20,Tue,Oct,Il falegname,5690,TRUE,Cimarosa,Da Ponte
+1789-10-22,Thu,Oct,Il falegname,4989,TRUE,Cimarosa,Da Ponte
+1789-10-24,Sat,Oct,Le nozze di Figaro,12593,FALSE,Mozart,Da Ponte
+1789-10-26,Mon,Oct,Il pastor fido,7528,TRUE,Salieri,Da Ponte
+1789-10-28,Wed,Oct,"Axur, re d'Ormus",11638,TRUE,Salieri,Da Ponte
+1789-10-30,Fri,Oct,L'arbore di Diana,14090,TRUE,Martín y Soler,Da Ponte
+1789-11-01,Sun,Nov,Il pastor fido,12363,TRUE,Salieri,Da Ponte
+1789-11-03,Tue,Nov,Una cosa rara,12974,TRUE,Martín y Soler,Da Ponte
+1789-11-05,Thu,Nov,Le nozze di Figaro,13229,TRUE,Mozart,Da Ponte
+1789-11-07,Sat,Nov,"Axur, re d'Ormus",10410,FALSE,Salieri,Da Ponte
+1789-11-09,Mon,Nov,Il burbero di buon cuore,15333,TRUE,Martín y Soler,Da Ponte
+1789-11-11,Wed,Nov,Il burbero di buon cuore,7781,TRUE,Martín y Soler,Da Ponte
+1789-11-13,Fri,Nov,Le nozze di Figaro,13013,FALSE,Mozart,Da Ponte
+1789-11-15,Sun,Nov,Il burbero di buon cuore,13691,FALSE,Martín y Soler,Da Ponte
+1789-11-17,Tue,Nov,"Axur, re d'Ormus",11426,TRUE,Salieri,Da Ponte
+1789-11-19,Thu,Nov,L'arbore di Diana,16039,TRUE,Martín y Soler,Da Ponte
+1789-11-21,Sat,Nov,Il falegname,4764,FALSE,Cimarosa,Da Ponte
+1789-11-23,Mon,Nov,Una cosa rara,11713,TRUE,Martín y Soler,Da Ponte
+1789-11-25,Wed,Nov,"Axur, re d'Ormus",8828,TRUE,Salieri,Da Ponte
+1789-11-27,Fri,Nov,Le nozze di Figaro,9503,TRUE,Mozart,Da Ponte
+1789-12-01,Tue,Dec,Il burbero di buon cuore,6173,TRUE,Martín y Soler,Da Ponte
+1789-12-03,Thu,Dec,I due suppositi conti,4053,FALSE,Cimarosa,Anelli
+1789-12-07,Mon,Dec,"Axur, re d'Ormus",8570,TRUE,Salieri,Da Ponte
+1789-12-09,Wed,Dec,Il falegname,2768,FALSE,Cimarosa,Da Ponte
+1789-12-11,Fri,Dec,La cifra,29121,TRUE,Salieri,Da Ponte
+1789-12-13,Sun,Dec,La cifra,27818,TRUE,Salieri,Da Ponte
+1789-12-15,Tue,Dec,La cifra,16695,TRUE,Salieri,Da Ponte
+1789-12-17,Thu,Dec,I due suppositi conti,7397,TRUE,Cimarosa,Anelli
+1789-12-19,Sat,Dec,Il falegname,3188,FALSE,Cimarosa,Da Ponte
+1789-12-21,Mon,Dec,La cifra,16943,TRUE,Salieri,Da Ponte
+1789-12-27,Sun,Dec,La cifra,21934,TRUE,Salieri,Da Ponte
+1789-12-29,Tue,Dec,"Axur, re d'Ormus",10205,TRUE,Salieri,Da Ponte
+1789-12-31,Thu,Dec,La cifra,9914,FALSE,Salieri,Da Ponte
+1790-01-02,Sat,Jan,Una cosa rara,13690,TRUE,Martín y Soler,Da Ponte
+1790-01-06,Wed,Jan,Il falegname,6624,FALSE,Cimarosa,Da Ponte
+1790-01-08,Fri,Jan,Le nozze di Figaro,12281,FALSE,Mozart,Da Ponte
+1790-01-10,Sun,Jan,L'arbore di Diana,18537,FALSE,Martín y Soler,Da Ponte
+1790-01-12,Tue,Jan,Il burbero di buon cuore,8534,FALSE,Martín y Soler,Da Ponte
+1790-01-14,Thu,Jan,Il falegname,2872,FALSE,Cimarosa,Da Ponte
+1790-01-16,Sat,Jan,Una cosa rara,12100,FALSE,Martín y Soler,Da Ponte
+1790-01-20,Wed,Jan,Il burbero di buon cuore,5931,FALSE,Martín y Soler,Da Ponte
+1790-01-22,Fri,Jan,La cifra,12665,TRUE,Salieri,Da Ponte
+1790-01-24,Sun,Jan,Una cosa rara,11566,FALSE,Martín y Soler,Da Ponte
+1790-01-26,Tue,Jan,Così fan tutte,33199,TRUE,Mozart,Da Ponte
+1790-01-28,Thu,Jan,Così fan tutte,18311,TRUE,Mozart,Da Ponte
+1790-01-30,Sat,Jan,Così fan tutte,13425,TRUE,Mozart,Da Ponte
+1790-02-01,Mon,Feb,Le nozze di Figaro,10881,TRUE,Mozart,Da Ponte
+1790-02-03,Wed,Feb,Una cosa rara,7350,TRUE,Martín y Soler,Da Ponte
+1790-02-05,Fri,Feb,La cifra,15219,FALSE,Salieri,Da Ponte
+1790-02-07,Sun,Feb,Così fan tutte,20586,TRUE,Mozart,Da Ponte
+1790-02-09,Tue,Feb,Una cosa rara,11543,FALSE,Martín y Soler,Da Ponte
+1790-02-11,Thu,Feb,Così fan tutte,14043,TRUE,Mozart,Da Ponte
+1790-04-13,Tue,Apr,Nina,32162,TRUE,Paisiello,Da Ponte
+1790-04-15,Thu,Apr,Nina,10244,TRUE,Paisiello,Da Ponte
+1790-04-17,Sat,Apr,L'arbore di Diana,18701,TRUE,Martín y Soler,Da Ponte
+1790-04-19,Mon,Apr,Il re Teodoro in Venezia,36191,TRUE,Paisiello,Casti
+1790-04-21,Wed,Apr,Il re Teodoro in Venezia,18716,TRUE,Paisiello,Casti
+1790-04-23,Fri,Apr,Nina,4531,FALSE,Paisiello,Da Ponte
+1790-04-25,Sun,Apr,L'arbore di Diana,17040,FALSE,Martín y Soler,Da Ponte
+1790-04-27,Tue,Apr,La cifra,8445,TRUE,Salieri,Da Ponte
+1790-04-29,Thu,Apr,Il re Teodoro in Venezia,14601,TRUE,Paisiello,Casti
+1790-05-01,Sat,May,Le nozze di Figaro,9443,TRUE,Mozart,Da Ponte
+1790-05-03,Mon,May,L'arbore di Diana,8151,TRUE,Martín y Soler,Da Ponte
+1790-05-05,Wed,May,Il re Teodoro in Venezia,12173,TRUE,Paisiello,Casti
+1790-05-07,Fri,May,Le nozze di Figaro,8521,TRUE,Mozart,Da Ponte
+1790-05-09,Sun,May,Le nozze di Figaro,12691,FALSE,Mozart,Da Ponte
+1790-05-11,Tue,May,La cifra,7335,TRUE,Salieri,Da Ponte
+1790-05-13,Thu,May,Il re Teodoro in Venezia,13289,FALSE,Paisiello,Casti
+1790-05-15,Sat,May,L'arbore di Diana,7481,TRUE,Martín y Soler,Da Ponte
+1790-05-17,Mon,May,La cifra,6662,FALSE,Salieri,Da Ponte
+1790-05-19,Wed,May,Le nozze di Figaro,4129,FALSE,Mozart,Da Ponte
+1790-05-21,Fri,May,Il re Teodoro in Venezia,9026,FALSE,Paisiello,Casti
+1790-05-24,Mon,May,La pastorella nobile,21373,TRUE,Guglielmi,Zini
+1790-05-26,Wed,May,La pastorella nobile,21941,TRUE,Guglielmi,Zini
+1790-05-28,Fri,May,La pastorella nobile,18945,FALSE,Guglielmi,Zini
+1790-05-30,Sun,May,Le nozze di Figaro,4236,FALSE,Mozart,Da Ponte
+1790-06-01,Tue,Jun,Il re Teodoro in Venezia,7597,TRUE,Paisiello,Casti
+1790-06-04,Fri,Jun,L'arbore di Diana,10934,FALSE,Martín y Soler,Da Ponte
+1790-06-06,Sun,Jun,Così fan tutte,7989,TRUE,Mozart,Da Ponte
+1790-06-08,Tue,Jun,La cifra,5569,TRUE,Salieri,Da Ponte
+1790-06-10,Thu,Jun,La pastorella nobile,18410,TRUE,Guglielmi,Zini
+1790-06-12,Sat,Jun,Così fan tutte,4560,FALSE,Mozart,Da Ponte
+1790-06-14,Mon,Jun,Il re Teodoro in Venezia,6728,TRUE,Paisiello,Casti
+1790-06-16,Wed,Jun,Una cosa rara,14247,TRUE,Martín y Soler,Da Ponte
+1790-06-18,Fri,Jun,L'arbore di Diana,8164,FALSE,Martín y Soler,Da Ponte
+1790-06-20,Sun,Jun,La pastorella nobile,11030,TRUE,Guglielmi,Zini
+1790-06-22,Tue,Jun,Le nozze di Figaro,5648,FALSE,Mozart,Da Ponte
+1790-06-24,Thu,Jun,La cifra,4657,FALSE,Salieri,Da Ponte
+1790-06-26,Sat,Jun,Le nozze di Figaro,8644,FALSE,Mozart,Da Ponte
+1790-06-28,Mon,Jun,Una cosa rara,9159,FALSE,Martín y Soler,Da Ponte
+1790-06-30,Wed,Jun,Il re Teodoro in Venezia,6639,TRUE,Paisiello,Casti
+1790-07-02,Fri,Jul,L'arbore di Diana,9244,TRUE,Martín y Soler,Da Ponte
+1790-07-04,Sun,Jul,La pastorella nobile,27794,TRUE,Guglielmi,Zini
+1790-07-06,Tue,Jul,Così fan tutte,8489,TRUE,Mozart,Da Ponte
+1790-07-08,Thu,Jul,La pastorella nobile,14734,FALSE,Guglielmi,Zini
+1790-07-10,Sat,Jul,Una cosa rara,8095,FALSE,Martín y Soler,Da Ponte
+1790-07-12,Mon,Jul,L'arbore di Diana,11802,FALSE,Martín y Soler,Da Ponte
+1790-07-14,Wed,Jul,La cifra,7137,FALSE,Salieri,Da Ponte
+1790-07-16,Fri,Jul,Così fan tutte,7977,FALSE,Mozart,Da Ponte
+1790-07-18,Sun,Jul,La pastorella nobile,17458,TRUE,Guglielmi,Zini
+1790-07-20,Tue,Jul,Il re Teodoro in Venezia,9953,TRUE,Paisiello,Casti
+1790-07-22,Thu,Jul,L'arbore di Diana,7512,FALSE,Martín y Soler,Da Ponte
+1790-07-24,Sat,Jul,Le nozze di Figaro,10844,TRUE,Mozart,Da Ponte
+1790-07-26,Mon,Jul,Le nozze di Figaro,3821,TRUE,Mozart,Da Ponte
+1790-07-30,Fri,Jul,L'arbore di Diana,8560,TRUE,Martín y Soler,Da Ponte
+1790-08-01,Sun,Aug,Una cosa rara,6676,FALSE,Martín y Soler,Da Ponte
+1790-08-03,Tue,Aug,L'arbore di Diana,5373,FALSE,Martín y Soler,Da Ponte
+1790-08-05,Thu,Aug,La pastorella nobile,10536,TRUE,Guglielmi,Zini
+1790-08-07,Sat,Aug,Così fan tutte,7302,TRUE,Mozart,Da Ponte
+1790-08-09,Mon,Aug,La pastorella nobile,9733,TRUE,Guglielmi,Zini
+1790-08-11,Wed,Aug,Il re Teodoro in Venezia,7689,FALSE,Paisiello,Casti
+1790-08-13,Fri,Aug,La quacquera spirituosa,25058,TRUE,Guglielmi,Da Ponte
+1790-08-15,Sun,Aug,La quacquera spirituosa,5887,FALSE,Guglielmi,Da Ponte
+1790-08-18,Wed,Aug,La pastorella nobile,15373,TRUE,Guglielmi,Zini
+1790-08-20,Fri,Aug,L'arbore di Diana,14696,FALSE,Martín y Soler,Da Ponte
+1790-08-22,Sun,Aug,Le nozze di Figaro,16605,FALSE,Mozart,Da Ponte
+1790-08-24,Tue,Aug,Il re Teodoro in Venezia,7110,TRUE,Paisiello,Casti
+1790-08-26,Thu,Aug,"Axur, re d'Ormus",14527,FALSE,Salieri,Da Ponte
+1790-08-28,Sat,Aug,La pastorella nobile,13232,FALSE,Guglielmi,Zini
+1790-08-30,Mon,Aug,Il re Teodoro in Venezia,8563,FALSE,Paisiello,Casti
+1790-09-01,Wed,Sep,"Axur, re d'Ormus",15422,TRUE,Salieri,Da Ponte
+1790-09-03,Fri,Sep,Le nozze di Figaro,10701,TRUE,Mozart,Da Ponte
+1790-09-05,Sun,Sep,La pastorella nobile,15745,FALSE,Guglielmi,Zini
+1790-09-07,Tue,Sep,Il re Teodoro in Venezia,10422,FALSE,Paisiello,Casti
+1790-09-09,Thu,Sep,Il re Teodoro in Venezia,12963,TRUE,Paisiello,Casti
+1790-09-13,Mon,Sep,La pastorella nobile,15356,TRUE,Guglielmi,Zini
+1790-09-15,Wed,Sep,La caffettiera bizzarra,36989,TRUE,Weigl,Da Ponte
+1790-09-16,Thu,Sep,La pastorella nobile,18641,TRUE,Guglielmi,Zini
+1790-09-18,Sat,Sep,Il re Teodoro in Venezia,13244,TRUE,Paisiello,Casti
+1790-09-20,Mon,Sep,"Axur, re d'Ormus",20903,TRUE,Salieri,Da Ponte
+1790-09-23,Thu,Sep,L'arbore di Diana,12365,TRUE,Martín y Soler,Da Ponte
+1790-09-25,Sat,Sep,Le nozze di Figaro,9366,TRUE,Mozart,Da Ponte
+1790-09-27,Mon,Sep,La pastorella nobile,10933,TRUE,Guglielmi,Zini
+1790-09-29,Wed,Sep,"Axur, re d'Ormus",9260,FALSE,Salieri,Da Ponte
+1790-10-01,Fri,Oct,L'arbore di Diana,6566,TRUE,Martín y Soler,Da Ponte
+1790-10-03,Sun,Oct,Gli equivoci,19156,FALSE,Storace,Da Ponte
+1790-10-05,Tue,Oct,Gli equivoci,10682,FALSE,Storace,Da Ponte
+1790-10-07,Thu,Oct,Gli equivoci,7635,FALSE,Storace,Da Ponte
+1790-10-09,Sat,Oct,La pastorella nobile,10925,TRUE,Guglielmi,Zini
+1790-10-11,Mon,Oct,Le nozze di Figaro,7888,TRUE,Mozart,Da Ponte
+1790-10-13,Wed,Oct,"Axur, re d'Ormus",10797,FALSE,Salieri,Da Ponte
+1790-10-16,Sat,Oct,"Axur, re d'Ormus",7123,FALSE,Salieri,Da Ponte
+1790-10-18,Mon,Oct,Il re Teodoro in Venezia,9561,TRUE,Paisiello,Casti
+1790-10-22,Fri,Oct,"Axur, re d'Ormus",9149,FALSE,Salieri,Da Ponte
+1790-10-24,Sun,Oct,La caffettiera bizzarra,18871,FALSE,Weigl,Da Ponte
+1790-10-26,Tue,Oct,La pastorella nobile,12307,FALSE,Guglielmi,Zini
+1790-10-28,Thu,Oct,Il re Teodoro in Venezia,8933,TRUE,Paisiello,Casti
+1790-10-30,Sat,Oct,L'arbore di Diana,14193,TRUE,Martín y Soler,Da Ponte
+1790-11-01,Mon,Nov,La caffettiera bizzarra,12687,TRUE,Weigl,Da Ponte
+1790-11-03,Wed,Nov,Gli equivoci,12060,TRUE,Storace,Da Ponte
+1790-11-05,Fri,Nov,La pastorella nobile,13990,TRUE,Guglielmi,Zini
+1790-11-07,Sun,Nov,Una cosa rara,26220,TRUE,Martín y Soler,Da Ponte
+1790-11-09,Tue,Nov,L'arbore di Diana,11381,FALSE,Martín y Soler,Da Ponte
+1790-11-11,Thu,Nov,Il re Teodoro in Venezia,8181,FALSE,Paisiello,Casti
+1790-11-13,Sat,Nov,La molinara,22433,TRUE,Paisiello,Palomba
+1790-11-15,Mon,Nov,La molinara,28728,TRUE,Paisiello,Palomba
+1790-11-17,Wed,Nov,La molinara,19401,TRUE,Paisiello,Palomba
+1790-11-19,Fri,Nov,Il re Teodoro in Venezia,8504,FALSE,Paisiello,Casti
+1790-11-21,Sun,Nov,La molinara,26488,FALSE,Paisiello,Palomba
+1790-11-23,Tue,Nov,La molinara,22990,FALSE,Paisiello,Palomba
+1790-11-25,Thu,Nov,L'arbore di Diana,12913,FALSE,Martín y Soler,Da Ponte
+1790-11-27,Sat,Nov,La pastorella nobile,15582,FALSE,Guglielmi,Zini
+1790-12-01,Wed,Dec,La molinara,24078,FALSE,Paisiello,Palomba
+1790-12-03,Fri,Dec,"Axur, re d'Ormus",17203,FALSE,Salieri,Da Ponte
+1790-12-05,Sun,Dec,Gli equivoci,18971,TRUE,Storace,Da Ponte
+1790-12-07,Tue,Dec,La pastorella nobile,12699,TRUE,Guglielmi,Zini
+1790-12-09,Thu,Dec,L'arbore di Diana,11071,FALSE,Martín y Soler,Da Ponte
+1790-12-11,Sat,Dec,Il re Teodoro in Venezia,9448,FALSE,Paisiello,Casti
+1790-12-13,Mon,Dec,Gli equivoci,9475,FALSE,Storace,Da Ponte
+1790-12-15,Wed,Dec,La molinara,26160,FALSE,Paisiello,Palomba
+1790-12-17,Fri,Dec,La molinara,15534,FALSE,Paisiello,Palomba
+1790-12-27,Mon,Dec,Il talismano,19776,FALSE,Salieri,Da Ponte
+1790-12-29,Wed,Dec,Il talismano,12266,FALSE,Salieri,Da Ponte
+1790-12-31,Fri,Dec,La molinara,17182,FALSE,Paisiello,Palomba
+1791-01-02,Sun,Jan,Il talismano,21542,FALSE,Salieri,Da Ponte
+1791-01-04,Tue,Jan,Le nozze di Figaro,14778,TRUE,Mozart,Da Ponte
+1791-01-06,Thu,Jan,L'arbore di Diana,17164,FALSE,Martín y Soler,Da Ponte
+1791-01-08,Sat,Jan,Una cosa rara,13622,FALSE,Martín y Soler,Da Ponte
+1791-01-10,Mon,Jan,La pastorella nobile,15382,TRUE,Guglielmi,Zini
+1791-01-14,Fri,Jan,Il talismano,11138,FALSE,Salieri,Da Ponte
+1791-01-16,Sun,Jan,Il re Teodoro in Venezia,11769,FALSE,Paisiello,Casti
+1791-01-18,Tue,Jan,La molinara,19317,FALSE,Paisiello,Palomba
+1791-01-20,Thu,Jan,Le nozze di Figaro,11051,FALSE,Mozart,Da Ponte
+1791-01-22,Sat,Jan,Gli equivoci,9087,TRUE,Storace,Da Ponte
+1791-01-24,Mon,Jan,La cifra,10255,FALSE,Salieri,Da Ponte
+1791-01-26,Wed,Jan,L'arbore di Diana,10658,FALSE,Martín y Soler,Da Ponte
+1791-01-28,Fri,Jan,La molinara,16581,FALSE,Paisiello,Palomba
+1791-01-30,Sun,Jan,Il talismano,9602,FALSE,Salieri,Da Ponte
+1791-02-01,Tue,Feb,La cifra,9145,FALSE,Salieri,Da Ponte
+1791-02-03,Thu,Feb,L'arbore di Diana,8872,FALSE,Martín y Soler,Da Ponte
+1791-02-05,Sat,Feb,L'arbore di Diana,6097,FALSE,Martín y Soler,Da Ponte
+1791-02-07,Mon,Feb,Una cosa rara,9511,FALSE,Martín y Soler,Da Ponte
+1791-02-09,Wed,Feb,Le nozze di Figaro,8718,TRUE,Mozart,Da Ponte
+1791-02-11,Fri,Feb,La pastorella nobile,13112,TRUE,Guglielmi,Zini
+1791-02-13,Sun,Feb,Il talismano,9781,FALSE,Salieri,Da Ponte
+1791-02-15,Tue,Feb,La giardiniera innamorata,24149,TRUE,Guglielmi,Palomba
+1791-02-17,Thu,Feb,La giardiniera innamorata,16950,TRUE,Guglielmi,Palomba
+1791-02-19,Sat,Feb,Il re Teodoro in Venezia,7694,FALSE,Paisiello,Casti
+1791-02-23,Wed,Feb,Il talismano,6098,FALSE,Salieri,Da Ponte
+1791-02-25,Fri,Feb,Una cosa rara,9913,FALSE,Martín y Soler,Da Ponte
+1791-02-27,Sun,Feb,La giardiniera innamorata,13878,FALSE,Guglielmi,Palomba
+1791-03-01,Tue,Mar,La pastorella nobile,13456,FALSE,Guglielmi,Zini
+1791-03-03,Thu,Mar,L'arbore di Diana,10801,TRUE,Martín y Soler,Da Ponte
+1791-03-05,Sat,Mar,Il talismano,9201,FALSE,Salieri,Da Ponte
+1791-03-07,Mon,Mar,La molinara,20601,TRUE,Paisiello,Palomba

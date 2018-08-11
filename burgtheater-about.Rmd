@@ -39,5 +39,5 @@ For comments, feature requests, and bug reports, contact me at
 
 Version 1.2
 
-Thu, 9 Aug 2018
+Sat, 11 Aug 2018
 

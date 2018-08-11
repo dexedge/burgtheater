@@ -13,7 +13,7 @@ You can also type directly into the selection box, and the range of possibilitie
 
 To close the selection box, click anywhere outside it or press ESC.
 
-When using the **Date** selector in the sidebar, make sure to select a particular day within a month, otherwise the selector will revert back to its original date. For example, if you want to narrow your selection to the season 1789/90, click the date selector on the right, move back to April 1790, and select any day in that month before the 13th (the first opera performance of the season 1790/91). The tables and plots will now show only the results for the season 1789/90. (The **Series** plot has its own date-range slider and will ignore the date-range selector in the sidebar.)
+When using the **Dates** selector in the sidebar, make sure to select a particular day within a month, otherwise the selector will revert back to its original date. For example, if you want to narrow your selection to the season 1789/90, click the date selector on the right, move back to April 1790, and select any day in that month before the 13th (the first opera performance of the season 1790/91). The tables and plots will now show only the results for the season 1789/90. (The **Series** plot has its own date-range slider and will ignore the date-range selector in the sidebar.)
 
 (In the court theater in Vienna at this time, theatrical seasons ran from the Monday after Easter to the end of Lent. The break between the seasons 1789/90 and 1790/91 was longer than usual because of the death of Emperor Joseph II on 20 Feb 1790.)
 

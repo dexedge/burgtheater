@@ -4,7 +4,7 @@
 # Dexter Edge
 #
 # Version 1.2
-# Updated: 2018-08-09
+# Updated: 2018-08-11
 
 library(shiny)
 library(shinythemes)
@@ -187,10 +187,10 @@ ui <- fluidPage(theme = shinytheme("flatly"),
                   the selected composers or titles over the selected period.")),
        tabPanel("Series", value = 6,
                 dygraphOutput(outputId = "operatimeseries"),
-                HTML("<br>Move the sliders to change the date range 
-                     of the time series.<br>Mousing over a point
-                     shows the date, receipts, and title for that point
-                     at the upper right.")
+                HTML("<br>Move the sliders at the bottom of the graph 
+                     to change the date range of the time series.<br>
+                     Mousing over a point shows the date, receipts, and 
+                     title for that point at the upper right.")
                 ),
        tabPanel("Help",
                 includeMarkdown("burgtheater-help.Rmd")),
