@@ -6,3 +6,4 @@ output: html_document
 ---
 
 Dark vertical lines in each box show the median receipts for the selected composers or titles. The height of a box is proportional to the number of performances. The left and right borders of a box are the 25th and 75th percentiles. Individual points are outliers more than 1.5 times the interquartile range above the 75th percentile. The boxes are sorted by descending median receipts.
+

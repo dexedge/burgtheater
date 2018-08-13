@@ -127,7 +127,7 @@ ui <- fluidPage(theme = shinytheme("flatly"),
                         start = "1789-04-14",
                         end = "1791-03-07",
                         min = "1789-04-14",
-                        max = "1791-03-07"
+                        max = "1791-03-08"
          ), # End dateRangeInput
        
          HTML("<p class='small'>The season 1789/90 ended on 1790-02-11
