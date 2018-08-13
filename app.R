@@ -332,11 +332,12 @@ server <- function(input, output, session) {
    }) # End reactive operashistogram 
    
    # Make xts time series for dygraphs time-series plot
+   # Includes "+1" workaround for date bug
    operas_xts <- reactive({
      receipts <- xts(operas_selected()$Receipts,
-                     as_date(operas_selected()$Date))
+                     as_date(operas_selected()$Date) + 1)
      colnames(receipts) <- "kr"
-     new <- as_date("1790-02-12")
+     new <- as_date("1790-02-13")
      receipts <- merge.xts(receipts, new)
      receipts
    }) # End reactive operas_xts
