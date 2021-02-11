@@ -1,7 +1,7 @@
 ---
 title: "Burgtheater About"
 author: "Dexter Edge"
-date: "August 8, 2018"
+date: "7 Feb 2021"
 output: html_document
 ---
 
@@ -27,8 +27,6 @@ I have written in detail about the implications of the box-office data for the r
 
 A new analysis of this data using R and the tidyverse packages is in progress.
 
-This is my first Shiny app and is in active development.
-
 The code and data for this app is at:
 <https://github.com/dexedge/burgtheater>
 
@@ -37,7 +35,7 @@ For comments, feature requests, and bug reports, contact me at
 
 
 
-Version 1.2
+Version 1.3
 
-Sat, 11 Aug 2018
+Sun, 7 Feb 2021
 

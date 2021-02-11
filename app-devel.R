@@ -3,8 +3,9 @@
 # 
 # Dexter Edge
 #
+# Development
 # Version 1.3
-# Updated: 2021-02-08
+# Updated: 2021-02-07
 
 library(shiny)
 library(shinythemes)
@@ -21,9 +22,11 @@ library(RColorBrewer)
 load("operas.Rdata")
 
 operas <- operas %>% select(Date, DOW, Title, Composer, Receipts, Zinz)
+operas$Date <- gsub("-", "/", operas$Date)
 
 d_bg_composer <- operas[, -4] # For background histograms; these don't change
 d_bg_title <- operas[, -3]
+
 
 
 # Color palette for histograms
@@ -116,9 +119,9 @@ ui <- fluidPage(theme = shinytheme("flatly"),
          ) # End selectInput Title
        ),
        
-       # Note that the dates below may display incorrectly as one day
-       # earlier when viewing the app with R Studio's built-in browser,
-       # but they will display correctly in an external browser
+       # Note: due to inconsistencies in the JavaScript handling of dates
+       # in different browsers, the max date needs to be given with "/"
+       # instead of "-". Removed 2/6/2021
        conditionalPanel(
          # Do not show with dygraph tab
          condition = "input.tabselected != 6",
@@ -127,7 +130,7 @@ ui <- fluidPage(theme = shinytheme("flatly"),
                         start = "1789-04-14",
                         end = "1791-03-07",
                         min = "1789-04-14",
-                        max = "1791-03-08"
+                        max = "1791-03-07"
          ), # End dateRangeInput
        
          HTML("<p class='small'>The season 1789/90 ended on 1790-02-11
@@ -332,10 +335,9 @@ server <- function(input, output, session) {
    }) # End reactive operashistogram 
    
    # Make xts time series for dygraphs time-series plot
-   # Includes "+1" workaround for date bug
    operas_xts <- reactive({
      receipts <- xts(operas_selected()$Receipts,
-                      as.POSIXct(operas$Date), tzone="UTC")
+                     as.POSIXct(operas$Date),tzone="UTC")
      colnames(receipts) <- "kr"
      new <- as.POSIXct("1790-02-12")
      receipts <- merge.xts(receipts, new, tzone="UTC")

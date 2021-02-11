@@ -32,7 +32,5 @@ Essays on his Life and his Music</em>, edited by Stanley Sadie. 66–117. Oxford
 
 A new analysis of this data using R and the tidyverse packages is in progress.
 
-This is my first Shiny app and is in active development.
-
 For comments, feature requests, and bug reports, contact me at:
 <dexedge@gmail.com>

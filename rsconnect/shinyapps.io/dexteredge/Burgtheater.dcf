@@ -1,0 +1,13 @@
+name: Burgtheater
+title: Burgtheater
+username:
+account: dexteredge
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 399008
+bundleId: 4197335
+url: https://dexteredge.shinyapps.io/Burgtheater/
+when: 1612810966.15055
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: app-devel.R|datetest.R
