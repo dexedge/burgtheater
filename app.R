@@ -331,10 +331,10 @@ server <- function(input, output, session) {
    # Make xts time series for dygraphs time-series plot
    operas_xts <- reactive({
      receipts <- xts(operas_selected()$Receipts,
-                      as.POSIXct(operas$Date), tzone="UTC")
+                      as.Date(operas_selected()$Date))
      colnames(receipts) <- "kr"
-     new <- as.POSIXct("1790-02-12", tzone="UTC")
-     receipts <- merge.xts(receipts, new, tzone="UTC")
+     new <- as.Date("1790-02-12")
+     receipts <- merge.xts(receipts, new)
      receipts
    }) # End reactive operas_xts
    
