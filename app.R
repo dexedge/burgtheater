@@ -4,7 +4,7 @@
 # Dexter Edge
 #
 # Version 1.3
-# Updated: 2021-02-08
+# Updated: 2021-02-16
 
 library(shiny)
 library(shinythemes)
@@ -116,9 +116,6 @@ ui <- fluidPage(theme = shinytheme("flatly"),
          ) # End selectInput Title
        ),
        
-       # Note that the dates below may display incorrectly as one day
-       # earlier when viewing the app with R Studio's built-in browser,
-       # but they will display correctly in an external browser
        conditionalPanel(
          # Do not show with dygraph tab
          condition = "input.tabselected != 6",
@@ -332,12 +329,11 @@ server <- function(input, output, session) {
    }) # End reactive operashistogram 
    
    # Make xts time series for dygraphs time-series plot
-   # Includes "+1" workaround for date bug
    operas_xts <- reactive({
      receipts <- xts(operas_selected()$Receipts,
                       as.POSIXct(operas$Date), tzone="UTC")
      colnames(receipts) <- "kr"
-     new <- as.POSIXct("1790-02-12")
+     new <- as.POSIXct("1790-02-12", tzone="UTC")
      receipts <- merge.xts(receipts, new, tzone="UTC")
      receipts
    }) # End reactive operas_xts
@@ -355,14 +351,25 @@ server <- function(input, output, session) {
              ylab = "Receipts (kr)") %>% 
        dySeries("kr", label = "Receipts (kr)") %>% 
        dyOptions(drawPoints=TRUE, pointSize=2, labelsUTC = TRUE) %>%
-       # Format date in Legend consistently. Add padding at extremes of
-       # range so that points are easier to see
+       # Format date in Legend consistently. Constructing the legend
+       # from scratch circumvents the off-by-one-day error in Chrome
+       # and Opera. Add padding at extremes of range so that points are 
+       # easier to see.
        dyAxis("x", valueFormatter = "function(ms) {
-                                return new Date(ms).toDateString()}",
+             dow = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+             months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+             temp = new Date(ms);
+             day = dow[temp.getUTCDay()];
+             date = temp.getUTCDate().toString();
+             month = months[temp.getUTCMonth()];
+             year = temp.getUTCFullYear().toString();
+             legend = day + ', ' + date + ' ' + month + ' ' + year;
+             return legend
+       }",
               rangePad=5
               )  %>% 
        dyEvent(x=as.Date("1790-02-20"), label="Death of Joseph II") %>% 
-       # dyHighlight(highlightCircleSize = 5) %>% 
+       dyHighlight(highlightCircleSize = 4) %>% 
        dyLegend(show="auto") %>% 
        dyRangeSelector() %>%
        # Code to add title to legend adapted from StackOverflow 27671576,
@@ -382,9 +389,7 @@ server <- function(input, output, session) {
          )) 
    }) # End reactive dygraph
    
-  # dyHighlight() is currently commented out above because it creates
-  # an unresolved bug in the display of the title in the legend
-   
+  
   ####################
   # Output functions #
   ####################
